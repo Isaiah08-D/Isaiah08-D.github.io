@@ -3,9 +3,6 @@
 <html>
 <head></head>
 <body>
-{% include header.html %}
-content
-{% include sidebar.html %}
-{% include footer.html %}
+  <p>hi!</p>
 </body>
 </html>
