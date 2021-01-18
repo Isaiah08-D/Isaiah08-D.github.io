@@ -1,10 +1,16 @@
-lsi: false
-safe: true
-source: /
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+# Site settings
+title: "Title (set in _config.yml)"
+description: description
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "isaiah08-d.github.io/" # the base hostname & protocol for your site
+encoding: utf-8
+
+# keep junk off the web
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - CNAME
+    - README.md
+
+# Build settings
+markdown: kramdown
